@@ -1,7 +1,78 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>Hello world</h1>
-        <p>I'm hosted with Github Pages.</p>
-    </body>
+<!-- This page is adapted from w3schools "How to make a link tree website https://www.w3schools.com/howto/howto_website_create_linktree.asp" -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Add your name below -->
+  <title>Brooke Wolkofsky</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body class="main-text-color">
+  <!-- Content container. Everything except footer goes here -->
+  <div class="container">
+    <!-- Image and name container. Put your replacement photo—which you should crop to be square—in the images folder, then change the source attribute to images/yourportraitfilename.jpg. This path says, "Look in the images folder for yourportraitfilename.jpg." Be sure to change the alt text, too. -->
+    <div class="image-container">
+      <img src="images/cartoon-pfp.png" alt="Illustration of Woman by Tatiana Olina">
+    </div>
+    <div class="intro">
+      I'm <span class="name"><strong>Brooke Wolkofsky</strong></span>, a friend with a creative mind. I love graphic design!
+    </div>
+    <div class="section-header">
+      <h1>My work</h1>
+    </div>
+    <!-- Replace the # inside of the href="#" with your links. -->
+    <div class="links-container">
+      <div class="button toggle">Blog post</div>
+      <div class="slidedown">
+        <div class="description">
+          <h2>Help, Everyone Has A Career Path And I'm Just Trying To Make It To My 8 AM</h2>
+          <p>Have you ever felt like you are not doing enough? Aren't financially stable enough? Don't have a post-grab job lined up "enough?" Well, me too. Click the button below to read more about students who might be struggling, just like you. Because, you are never alone.</p>
+          <a href="https://medium.com/@brookewolko/help-everyone-has-a-career-path-and-im-just-trying-to-make-it-to-my-8-am-45dbbbeaaae5" class="external-link" target="_blank">Read</a>
+        </div>
+      </div>
+
+      <div class="button toggle">Video</div>
+      <div class="slidedown">
+        <div class="description">
+          <h2>Egg Flights</h2>
+          <p>Here is a link to a clip about how to make a hard boiled egg flights. These have been my new favorite obsession and I wanted to share with you. This video will show you different recipes and combinations to eat with your hard boiled eggs.</p>
+          <a href="https://youtube.com/shorts/k7-j3vUjGh8?feature=shared" class="external-link" target="_blank">Watch</a>
+        </div>
+      </div>
+
+      <div class="button toggle">Podcast</div>
+      <div class="slidedown">
+        <div class="description">
+          <h2>Conspiracies and Clickbait</h2>
+          <p>Growing up in a time so consumed by media and with such easy access to it, conspiracies are spreading faster than ever before. Listen to learn about some preventative steps to ensure you don't fall into a conspiracy rabbit hole. </p>
+          <a href="https://soundcloud.com/sid-jain-606528263/conspiracies-and-clickbait-podcast/s-EIx4OfpinEt?si=75609031d02c4be9b12cf7b2864ea62d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" class="external-link" target="_blank">Listen</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Replace # with PDF from Google Docs, or replace the entire section with whatever you want. Or delete it! Or add another section below it!-->
+    <div class="section-header">
+      <h1>About me</h1>
+    </div>
+
+    <div class="links-container">
+      <a href="https://drive.google.com/file/d/1UfgVzG-0oSsYD3yX0c51_nhPw_JsQxHb/view?usp=share_link" class="button" target="_blank">Portfolio</a>
+      <a href="https://virginiatech-my.sharepoint.com/:w:/g/personal/brookewolko_vt_edu/Ed1sI48oQ_1Ardz_-Qocb3AB1XekhNYZcbW2d5RmpCwlgg?e=zbsGBG" class="button" target="_blank">Resume</a>
+    </div>
+
+  </div>
+  <div class="footer">
+    <p>© Brooke Wolkofsky, 2024. Based on a design by <a
+        href="https://www.w3schools.com/howto/howto_website_create_linktree.asp" target="_blank">w3schools</a>.
+    </p>
+  </div>
+  <script type="text/javascript" src="js/slider.js"></script>
+</body>
+
 </html>
